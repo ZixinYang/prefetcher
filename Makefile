@@ -3,7 +3,6 @@ CFLAGS = -msse2 --std gnu99 -O0 -Wall -Wextra
 GIT_HOOKS := .git/hooks/applied
 
 SRC = main.c
-SRC_verify = verify.c
 
 EXEC = naive_transpose \
 	  sse_transpose \
